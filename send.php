@@ -1,6 +1,6 @@
 <?php
 
-
+echo 'test';
 if(isset($_POST['send']))
 {
 	$con = new PDO('mysql:host=localhost;dbname=captcha','root','root');
